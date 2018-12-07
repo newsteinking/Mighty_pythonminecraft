@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Python Minecraft'
+project = 'Mighty Python Minecraft'
 copyright = '2018, sean'
 author = 'sean'
 
