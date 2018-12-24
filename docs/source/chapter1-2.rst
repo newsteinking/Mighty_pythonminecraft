@@ -1,15 +1,16 @@
-chapter 2: Teleporting with Variables
+chapter 2: 변수로 이동하기
 =========================================
 
 
-2.1 What Is a Program?
+2.1 프로그램이란 무엇인가
 --------------------------
 
-A program is a set of instructions that makes your computer do a specific
-task or tasks
+
+컴퓨터가 특정한 업무를 할 수 있도록 일련의 명령 집합이다.
 
 
-2.2 Storing Data with Variables
+
+2.2 변수값 저장하기
 ---------------------------------
 이 장에서 배우게 될 중요한 내용은 변수이다.
 variable 로 표현되며 여러가지 내용물을 채울 수 있는 모양이 변형되는 그릇이라고 생각하면 된다.
@@ -40,7 +41,9 @@ bread=145  할당해 보자.
 다음은 입력이 안된다.
 
 pickaxes = 12 iron = 30 cobblestone = 25
-A syntax error is Python’s way of telling you it doesn’t understand
+
+상기처럼 계속 입력행태가 들어가면 오류가 난다.
+
 
 
 Syntax Rules for Variables
@@ -51,6 +54,11 @@ Syntax Rules for Variables
 
 .. sourcecode:: pycon
 
+     * 변수 이름에 심볼을 넣으면 안된다.예외 _
+     * 숫자로 첫 변수이름을 쓰면 안된다. 예 ,9bread, bread9 OK
+     * 할당 (=) 기호에 스페이스를 넣을 필요가 없다.
+
+
     • Don’t include symbols in your variable names, except for underscores (_),
     or you’ll get a syntax error.
     • Don’t start a variable name with a number, as in 9bread. Using numbers
@@ -59,15 +67,12 @@ Syntax Rules for Variables
     will run fine without them. But they do make the code easier to
     read, so it’s a good idea to add them.
 
+변수에 값이 저장되었더라도, 그것은 저장이 안된다. 변수값은 컴퓨터의 임시 저장소에 저장된다.
+따라서 프로그램이 바뀌거나 하면 값이 사라지게 된다.
+IDLE에서 변수값이 저장되는지 확인해 보자.
 
 
-Although the value of a variable is stored, it is not saved. The value of a variable
-is stored in the computer’s temporary memory, meaning that when the computer is
-switched off or the program stops running, the value of the variable is no longer
-stored. Try closing IDLE and then opening it again. When you try to get the value
-of bread, what happens?
-
-Changing the Values of Variables
+변수값 바꾸기
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 변수는 변경이 가능하다.
@@ -169,8 +174,8 @@ Floats
 
 
 
-2.3 Slowing Down Teleportation Using the time Module
-------------------------------------------------------
+2.3 타임 모듈을 이용해서 천천히 또는 잠시 대기상태를 만들어보자
+--------------------------------------------------------------
 
 player를 좀 느리게 처리를 하려면 다음 모듈을 쓰면 된다.
 
@@ -216,7 +221,7 @@ Everyone makes mistakes
     # mc = Minecraft.create()
 
     x = 10
-      y = 11
+    y = 11
     z = 12
 
 
@@ -250,6 +255,7 @@ variables
 
 setPos()
 setTilePos()
+time.sleep(초)
 
 
 

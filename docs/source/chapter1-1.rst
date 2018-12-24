@@ -27,7 +27,7 @@ one drive에서 다음 경로로 가면 MinecraftPythonAPI.zip
 
 .. code-block:: python
 
-    D:\OneDrive\OneDrive_4619\OneDrive - leverage innovative users\프로그램\minecraft
+    D:\OneDrive\OneDrive_4619\OneDrive - leverage innovative users\devtools\minecraft
 
 
 
