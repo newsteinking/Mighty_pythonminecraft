@@ -52,12 +52,14 @@ Syntax Rules for Variables
 다음은 변수로 쓸수 없는 규칙이다.
 
 Don’t include symbols in your variable names, except for underscores (_),
-        or you’ll get a syntax error.
+or you’ll get a syntax error.
+
 Don’t start a variable name with a number, as in 9bread. Using numbers
-        elsewhere in a variable name is fine, as in bread9.
- You don’t need to add spaces on either side of the equal sign: your program
-        will run fine without them. But they do make the code easier to
-        read, so it’s a good idea to add them.
+elsewhere in a variable name is fine, as in bread9.
+
+You don’t need to add spaces on either side of the equal sign: your program
+will run fine without them. But they do make the code easier to
+read, so it’s a good idea to add them.
 
 변수 이름에 심볼을 넣으면 안된다.예외 _
 숫자로 첫 변수이름을 쓰면 안된다. 예 ,9bread, bread9 OK
