@@ -52,20 +52,19 @@ Syntax Rules for Variables
 다음은 변수로 쓸수 없는 규칙이다.
 
 
-.. sourcecode:: pycon
-
-     * 변수 이름에 심볼을 넣으면 안된다.예외 _
-     * 숫자로 첫 변수이름을 쓰면 안된다. 예 ,9bread, bread9 OK
-     * 할당 (=) 기호에 스페이스를 넣을 필요가 없다.
 
 
-    • Don’t include symbols in your variable names, except for underscores (_),
-    or you’ll get a syntax error.
-    • Don’t start a variable name with a number, as in 9bread. Using numbers
-    elsewhere in a variable name is fine, as in bread9.
-    • You don’t need to add spaces on either side of the equal sign: your program
-    will run fine without them. But they do make the code easier to
-    read, so it’s a good idea to add them.
+• Don’t include symbols in your variable names, except for underscores (_),
+        or you’ll get a syntax error.
+• Don’t start a variable name with a number, as in 9bread. Using numbers
+        elsewhere in a variable name is fine, as in bread9.
+• You don’t need to add spaces on either side of the equal sign: your program
+        will run fine without them. But they do make the code easier to
+        read, so it’s a good idea to add them.
+
+변수 이름에 심볼을 넣으면 안된다.예외 _
+숫자로 첫 변수이름을 쓰면 안된다. 예 ,9bread, bread9 OK
+할당 (=) 기호에 스페이스를 넣을 필요가 없다.
 
 변수에 값이 저장되었더라도, 그것은 저장이 안된다. 변수값은 컴퓨터의 임시 저장소에 저장된다.
 따라서 프로그램이 바뀌거나 하면 값이 사라지게 된다.
