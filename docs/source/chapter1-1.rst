@@ -121,3 +121,33 @@ IDLE에 다음 코드를 입력해 보자
 
 
 
+1.6 Python이란
+------------------------------------------
+Interpreter,no compile
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Python is a high-level programming language, with applications in numerous areas, including web programming,
+scripting, scientific computing, and artificial intelligence.
+It is very popular and used by organizations such as Google, NASA, the CIA, and Disney.
+Python is processed at runtime by the interpreter.
+There is no need to compile your program before executing it.
+
+
+Python 3.X,CPython
+~~~~~~~~~~~~~~~~~~~~~~~~
+The three major versions of Python are 1.x, 2.x and 3.x. These are subdivided into minor versions, such as 2.7 and 3.3.
+Code written for Python 3.x is guaranteed to work in all future versions.
+Both Python Version 2.x and 3.x are used currently.
+This course covers Python 3.x, but it isn't hard to change from one version to another.
+
+Python has several different implementations, written in various languages.
+The version used in this course, CPython, is the most popular by far.
+
+print("Hello world!")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's start off by creating a short program that displays "Hello world!".
+In Python, we use the print statement to output text:
+
+print('Hello world!')
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
