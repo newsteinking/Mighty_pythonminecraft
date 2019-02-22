@@ -7,8 +7,8 @@ Python Minecraft
 
 written by sean base on following books
 
-![Alt logo]( /source/img/chapter0_4.jpg)
-![Alt book ]( /source/img/chapter0_3.jpg)
+![Alt logo]( https://mighty-python-minecraft.readthedocs.io/ko/latest/_images/chapter0_4.png)
+![Alt book ]( https://mighty-python-minecraft.readthedocs.io/ko/latest/_images/chapter0_3.png)
 
 "Index"  https://mighty-python-minecraft.readthedocs.io/ko/latest/index.html
 
